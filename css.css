@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+label{
+    background-color: black;
+    color: white;
+}
+button{
+ margin-inline: 10px;
+}

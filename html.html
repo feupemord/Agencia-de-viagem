@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurSonho</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js" defer></script>
+
+</head>
+<body>
+    <center>
+        <div>
+    <h3>Agencia Sonho</h3>
+        <span id="hora"></span>
+
+
+
+    <br>
+    
+    <form action="#" id="test">
+        <input type="text" name="nome" id="nome" placeholder="Informe seu nome: ">
+        <br>
+        <br>
+        <input type="text" name="email" id="email" placeholder="Digite seu email: ">
+        <br> <br>
+            <label for="pacote">Escolha seu Destino</label>
+            <br>
+            <br>
+            <select name="destino" id="destino">
+                <option value="ESP">Espanha</option>
+                <option value="UK">Reino Unido</option>
+                <option value="FRA">França</option>
+            </select>
+            <br>
+            <br>
+    <label for="guia">Deseja Guia turistico</label>
+    <br>
+    <input type="radio" name="guia" id="guiaSim" value="500">Sim
+    <input type="radio" name="guia" id="guiaNao" value="0"> Não
+
+<br>
+<br>
+      <label for="adicionais">Adicionais</label>
+      <br> <br>
+      <label for="traslado">Traslado</label>
+      <input type="checkbox" name="adicionais" id="traslado" value="150">
+      <br>
+      <label for="passeios">Passeios</label>
+      <input type="checkbox" name="adicionais" id="passeios" value="200">
+<br>
+<br>
+      <button onclick="orcar()">Orcamento</button>
+      <button onclick="limpar()">Limpar</button>
+      <button onclick="imprimir()">Imprimir</button>
+      <button onclick="fim()">Fim</button>
+
+    </div>
+
+
+</center>
+</body>
+</html>
